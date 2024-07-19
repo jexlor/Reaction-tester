@@ -39,3 +39,8 @@ i{
 .restrict{
     pointer-events: none;
 }
+@media (max-width: 768px){
+    #introduction{
+        font-size: 20px;
+    }
+}
