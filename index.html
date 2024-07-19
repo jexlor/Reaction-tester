@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="square">
+       <div class="text"></div>
+            <h1 id="introduction" class="active"><i class="fa-solid fa-arrow-pointer"></i> Click on the screen when you see green.</h1>
+            <h1 class="active" id="click"><i class="fa-solid fa-computer-mouse"></i> Click!</h1>
+            <h1 class="active" id="result"></h1>
+        <div class="button">
+            <button id="start"><i class="fa-solid fa-play"></i></button>
+            <button id="reload" class="active"><i class="fa-solid fa-rotate-right"></i></button>
+        </div>
+    </div>
+    <style>
+        body{
+            height: 100vh;
+            background-color: rgb(209, 209, 209);
+        }
+        html{
+            font-family: sans-serif;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #square{
+            width: 100%;
+            height: 100vh;
+            background-color: rgb(190, 69, 69);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 30px;
+            color: rgb(209, 209, 209);
+        }
+        .active{
+            display: none;
+        }
+        button{
+            width: 75px;
+            height: 75px;
+            border: 0;
+            background-color: rgb(209, 209, 209);
+            border-radius: 50px;
+            cursor: pointer;
+            text-align: center;
+        }
+        i{
+            font-size: 26px;
+        }
+    </style>
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/cf852e3d0e.js" crossorigin="anonymous"></script>
+</body>
+</html>
